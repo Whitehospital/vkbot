@@ -6,12 +6,10 @@ import (
 	"os"
 
 	tgbotapi "gopkg.in/telegram-bot-api.v4"
-
-	
 )
 
 const (
-	webHook = "https://git.heroku.com/boiling-eyrie-50974.git"
+	webHook = "https://git.heroku.com/nameless-peak-43265.git"
 )
 
 func main() {
