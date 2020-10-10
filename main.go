@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"os"
 
 	tgbotapi "gopkg.in/telegram-bot-api.v4"
 )
@@ -12,7 +13,7 @@ const (
 
 func main() {
 	tgToken := "1313663522:AAEXdq67ViIwffn9BDVDTINlHjwOPmtQ4Gk"
-	//port := os.Getenv("PORT")
+	port := os.Getenv("PORT")
 
 	//go func() {
 	//	log.Fatal(http.ListenAndServe(":"+port, nil))
